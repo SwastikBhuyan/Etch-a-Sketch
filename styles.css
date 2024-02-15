@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ECB159;
+}
+
+body h1 {
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+
+.container {
+    height: 700px;
+    width: 700px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+}
+
+.gridDiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.gridDivDiv {
+    flex: 1;
+}
+
+.reset, .colorPicker {
+    height: 30px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.bottomDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-between;
+    width: 50%;
+}
